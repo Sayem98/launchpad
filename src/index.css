@@ -1,0 +1,31 @@
+@import "./css/main1.css";
+@import "./css/main2.css";
+@import "./css/main3.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fbf9fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.ant-card-head-title {
+  color: #ffffff !important;
+}
+.airdrop-owner-btn {
+  width: 100%;
+  background-color: var(----info) !important;
+  border-color: var(----info) !important;
+  color: #ffffff !important;
+}
+.airdrop-owner-btn:disabled {
+  background-color: #40a9ff !important;
+  color: #40a9ff !important;
+}

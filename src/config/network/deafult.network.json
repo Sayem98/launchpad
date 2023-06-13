@@ -1,0 +1,26 @@
+{
+  "network": [
+    {
+      "name": "BNB TESTNET",
+      "symbol": "TBNB",
+      "chainId": 97,
+      "logoURI": "https://www.pinksale.finance/static/media/ic-bsc.419dfaf2.png"
+    },
+    {
+      "name": "POLYGON TESTNET",
+      "symbol": "MATIC",
+      "chainId": 80001,
+      "logoURI": "https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png"
+    }
+  ],
+  "networkList": {
+    "97": {
+      "name": "BNB TESTNET",
+      "logoURI": "https://www.pinksale.finance/static/media/ic-bsc.419dfaf2.png"
+    },
+    "80001": {
+      "name": "POLYGON TESTNET",
+      "logoURI": "https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png"
+    }
+  }
+}

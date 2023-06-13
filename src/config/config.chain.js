@@ -1,0 +1,52 @@
+export const ChainsInfo = {
+  // 5: {
+  //   NETWORK_NAME: "",
+  //   CHAIN_NAME: "Ethereum",
+  //   CURRENCY_SYMBOL: "ETH",
+  //   IS_MAIN_NET: false,
+  //   LOGO_URL:
+  //     "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg",
+  //   CHAIN_ID: "5",
+  //   BLOCK_EXPLORER_URL: "https://goerli.etherscan.io/",
+  //   RPC_PROVIDER_URL:
+  //     "https://goerli.infura.io/v3/9c48d1f781404552b1a017d597f6bee1",
+  //   BUSD_TOKEN: "0x8301F2213c0eeD49a7E28Ae4c3e91722919B8B47",
+  //   USDT_TOKEN: "0x8301F2213c0eeD49a7E28Ae4c3e91722919B8B47"
+  // },
+  97: {
+    NETWORK_NAME: "Binance",
+    CHAIN_NAME: "Binance",
+    CURRENCY_SYMBOL: "BNB",
+    IS_MAIN_NET: false,
+    LOGO_URL: "https://cryptologos.cc/logos/bnb-bnb-logo.png",
+    CHAIN_ID: "97",
+    BLOCK_EXPLORER_URL: "https://testnet.bscscan.com/",
+    RPC_PROVIDER_URL: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+    MULTISENDER_ADDRESS: "0x39D3653Be6F64427fa82C9B02D8669c3D4339F85",
+    LAUNCHPAD_FC_ADDRESS: "0xDF9eAd8681018242cc27Ac50ecC4b942E38AF87A",
+    AIRDROP_FACTORY_CONTRACT: "0x70C72D2C04fBA643802bAf71B20056B36a267129",
+    STAKING_FACTORY_CONTRACT: "0x183C02E1f6684D29AfDe02376777e70028E38F59",
+    PRIVATE_SALE_FACTORY_CONTRACT: "0xFC510A8835B4900aa38eb36A551e3b9215efeb76",
+    TOKEN: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+  },
+  80001: {
+    NETWORK_NAME: "Polygon",
+    CHAIN_NAME: "Polygon",
+    CURRENCY_SYMBOL: "MATIC",
+    IS_MAIN_NET: false,
+    LOGO_URL:
+      "https://cdn.iconscout.com/icon/free/png-256/polygon-token-4086724-3379854.png",
+    CHAIN_ID: "80001",
+    BLOCK_EXPLORER_URL: "https://mumbai.polygonscan.com/",
+    RPC_PROVIDER_URL: "https://rpc-mumbai.matic.today/",
+    LAUNCHPAD_FC_ADDRESS: "0xb23F4b828164B4C1616A7a40297Ae0020145b55e",
+    MULTISENDER_ADDRESS: "0x34542B3aD2B310B7Ac9820E7b1C8029868A2fe37",
+    AIRDROP_FACTORY_CONTRACT: "0xA693307AD38BCAC71AD12E28a1bB1dDf5bB035ce",
+    STAKING_FACTORY_CONTRACT: "0xEAEca011E4Ca3ac09C9148C920C7f09F0b273635",
+    PRIVATE_SALE_FACTORY_CONTRACT: "0x925D4509d44b0c435EaC440D0DeBe28C693266b0",
+
+    // BUSD_TOKEN: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+    // USDT_TOKEN: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889"
+    TOKEN: "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+  },
+};

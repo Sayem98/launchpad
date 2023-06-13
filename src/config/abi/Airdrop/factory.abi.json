@@ -1,0 +1,379 @@
+[
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "TokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AirdropTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LogoURL",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Website",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Facebook",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Twitter",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Github",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Telegram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Instagram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Discord",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Reddit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StartTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation_10",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "FactoryContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "OwnerAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct IAirdop.ConstructorParameters",
+				"name": "_params",
+				"type": "tuple"
+			},
+			{
+				"internalType": "address",
+				"name": "_AirdopContractAddress",
+				"type": "address"
+			}
+		],
+		"name": "CollectAirdopData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "airdopCounter",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllAirdopAddresses",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getCompleteAirdopsDetails",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "TokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AirdropTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LogoURL",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Website",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Facebook",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Twitter",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Github",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Telegram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Instagram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Discord",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Reddit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StartTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation_10",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "FactoryContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "OwnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "AirdopContractAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct FactoryContract.AirdopFactory[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_AirdopContractAddress",
+				"type": "address"
+			}
+		],
+		"name": "getStructByAddress",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "TokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AirdropTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LogoURL",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Website",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Facebook",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Twitter",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Github",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Telegram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Instagram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Discord",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Reddit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StartTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation_10",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "FactoryContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "OwnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "AirdopContractAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct FactoryContract.AirdopFactory",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

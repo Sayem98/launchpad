@@ -1,0 +1,317 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string[]",
+				"name": "_stringsList",
+				"type": "string[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_numericList",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "address",
+				"name": "_AddrOwnerMetamask",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_IntractionContractAddr",
+				"type": "address"
+			}
+		],
+		"name": "CollectIDOData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllIntractionDetails",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string[]",
+						"name": "S1",
+						"type": "string[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "U1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "address[]",
+						"name": "A1",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddr",
+						"type": "address"
+					}
+				],
+				"internalType": "struct FactoryContract.IDOFactory[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenAddr",
+				"type": "address"
+			}
+		],
+		"name": "getDataByAddress",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			},
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getIntractionAddrs",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_interationAddr",
+				"type": "address"
+			}
+		],
+		"name": "getSocialMedia",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "idoCounter",
+		"outputs": [
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "__interationAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_min",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_max",
+				"type": "uint256"
+			}
+		],
+		"name": "setIDOGlobalMinMaxBuy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "__interationAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_price",
+				"type": "uint256"
+			}
+		],
+		"name": "setIDOPresaleRate",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "__interationAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_softCap",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_hardCap",
+				"type": "uint256"
+			}
+		],
+		"name": "setIDOSoftHardCap",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "__interationAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_stime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_etime",
+				"type": "uint256"
+			}
+		],
+		"name": "setIDOStartEndTime",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_interationAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_ico",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_fb",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_twitter",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_website",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_desc",
+				"type": "string"
+			}
+		],
+		"name": "setSocialMedia",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_TokenMakerAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_IntractionContractAddr",
+				"type": "address"
+			}
+		],
+		"name": "setTokenAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

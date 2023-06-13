@@ -1,0 +1,309 @@
+[
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "TokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AirdropTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LogoURL",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Website",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Facebook",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Twitter",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Github",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Telegram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Instagram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Discord",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Reddit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Description",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "StartTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TotalAllocation_10",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "FactoryContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "OwnerAddress",
+						"type": "address"
+					}
+				],
+				"internalType": "struct IAirdop.ConstructorParameters",
+				"name": "_params",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "FactoryContractAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "LCORE_OWNER",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "TotalSumAllocation",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "calimToken",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "cancelAirdrop",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getAllAllocations",
+		"outputs": [
+			{
+				"internalType": "address[]",
+				"name": "",
+				"type": "address[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "hasAirdropCancled",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "isAirdropStart",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "removeAllAllocation",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address[]",
+				"name": "addressList",
+				"type": "address[]"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "amountList",
+				"type": "uint256[]"
+			}
+		],
+		"name": "setAllocations",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_startTime",
+				"type": "uint256"
+			}
+		],
+		"name": "startAirdrop",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userAllocation",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

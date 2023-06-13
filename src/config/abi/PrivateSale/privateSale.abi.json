@@ -1,0 +1,604 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "previousOwner",
+				"type": "address"
+			},
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "OwnershipTransferred",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address[]",
+				"name": "_addressToWhitelist",
+				"type": "address[]"
+			}
+		],
+		"name": "addBulkUsers",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_busdAmount",
+				"type": "uint256"
+			}
+		],
+		"name": "Buy",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "cancelPool",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "claimToken",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "EmergenryWithdraw",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "Finalized",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "RemoveWhiteListed",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_tokenAddr",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_toWallet",
+				"type": "address"
+			}
+		],
+		"name": "retrieveStuckedERC20Token",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "setWhiteList",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newOwner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "TokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "TokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "AirdropTitle",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "LogoURL",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Website",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Facebook",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Twitter",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Github",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Telegram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Instagram",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Discord",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Reddit",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Description",
+						"type": "string"
+					}
+				],
+				"internalType": "struct IPrivateSale.ConstructorParameters1",
+				"name": "_params1",
+				"type": "tuple"
+			},
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "StartTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "EndTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SoftCap",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "HardCap",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "MinimumInvestment",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "MaximumInvestment",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TGEPercentage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "VestingCycle",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "VestingCyclePer",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "FactoryContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "OwnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "WhiteListEnable",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct IPrivateSale.ConstructorParameters2",
+				"name": "_params2",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [],
+		"name": "youCanClaim",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "Counter",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "EachInterval",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Claimed",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Available",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "CurrentRountClaim",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addr",
+				"type": "address"
+			}
+		],
+		"name": "getSellTrack",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getTokenomics",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "TokenContractAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "tGEValue",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "vestingCycle",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "vestingCyclePer",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "TotalAllocation",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "TotalClaimedAllocation",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsSaleFinalize",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint8",
+				"name": "TokenDecimal",
+				"type": "uint8"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getTokenomics256",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "StartTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "EndTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "RaisedFund",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "SoftCap",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "HardCap",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "MinimumInvestment",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "MaximumInvestment",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "TokenDecimal",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getTokenomicsVesting",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "vestingStartTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "TotalCounter",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "IntervalAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "remainingAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "IsFinalizaed",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "AlreadyClaimed",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "CurrentCounterRunning",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUserAllocationLeft",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "isHardCapReached",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "isSaleEnd",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "isSoftCapReached",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "SellTrackDataset",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "isCancelSale",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_whitelistedAddress",
+				"type": "address"
+			}
+		],
+		"name": "verifyUser",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
